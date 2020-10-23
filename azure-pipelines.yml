@@ -24,15 +24,13 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: 'src/Server/Server.csproj'
-    buildProperties: 'Version=2.0.6-lpa'
+    packagesToPack: 'dist/nuget/Microsoft.AspNet.WebApi.Extensions.Compression.Server.nuspec'
     configuration: 'Release'
 
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: 'src/Server.Owin/Server.Owin.csproj'
-    buildProperties: 'Version=2.0.4-lpa'
+    packagesToPack: 'dist/nuget/Microsoft.AspNet.WebApi.Extensions.Compression.Server.Owin.nuspec'
     configuration: 'Release'
 
 - task: NuGetCommand@2
