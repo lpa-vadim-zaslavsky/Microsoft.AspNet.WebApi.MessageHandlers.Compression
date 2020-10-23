@@ -26,12 +26,14 @@ steps:
     command: 'pack'
     packagesToPack: 'src/Server/Server.csproj'
     buildProperties: 'Version=2.0.6-lpa'
+    configuration: 'Release'
 
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
     packagesToPack: 'src/Server.Owin/Server.Owin.csproj'
     buildProperties: 'Version=2.0.4-lpa'
+    configuration: 'Release'
 
 - task: NuGetCommand@2
   inputs:
