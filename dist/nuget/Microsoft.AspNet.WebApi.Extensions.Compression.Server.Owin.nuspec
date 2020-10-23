@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Microsoft.AspNet.WebApi.Extensions.Compression.Server.Owin</id>
-    <version>2.0.0</version>
+    <version>2.0.4-lpa</version>
     <title>OWIN support for Microsoft.AspNet.WebApi.Extensions.Compression.Server</title>
     <authors>Ove Andersen</authors>
     <owners>EyeCatch</owners>
